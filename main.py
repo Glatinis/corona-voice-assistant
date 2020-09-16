@@ -76,4 +76,5 @@ def say(text):
     playsound("speech.mp3")
     os.remove("speech.mp3")
 
-main()
+if __name__ == "__main__":
+    main()
